@@ -15,9 +15,9 @@ public class RestAssuredReadResponseBodyInJSONFormat {
 	public void restAssuredReadResponseBodyJSONFormat() {
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 
-		RequestSpecification request = RestAssured.given();
+		RequestSpecification requestSpec = RestAssured.given();
 
-		Response response = request.request(Method.GET, "/Bangalore");
+		Response response = requestSpec.request(Method.GET, "/Bangalore");
 
 		JsonPath jsonPathEvaluator = response.jsonPath();
 

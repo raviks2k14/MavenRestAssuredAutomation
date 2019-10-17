@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.rvtech.RestAssuredReadExmple">
+      <class name="com.rvtech.RestAssuredDeserializeJSONResponse">
         <methods>
-          <include name="readJson"/>
+          <include name="deserializeJSONResponse"/>
         </methods>
-      </class> <!-- com.rvtech.RestAssuredReadExmple -->
+      </class> <!-- com.rvtech.RestAssuredDeserializeJSONResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

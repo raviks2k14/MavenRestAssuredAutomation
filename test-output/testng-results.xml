@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2507" started-at="2019-10-16T22:52:33Z" finished-at="2019-10-16T22:52:35Z">
+  <suite name="Default suite" duration-ms="2373" started-at="2019-10-17T21:26:35Z" finished-at="2019-10-17T21:26:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2507" started-at="2019-10-16T22:52:33Z" finished-at="2019-10-16T22:52:35Z">
-      <class name="com.rvtech.RestAssuredReadResponseBodyJSONFormat">
-        <test-method status="PASS" signature="restAssuredReadResponseBodyJSONFormat()[pri:0, instance:com.rvtech.RestAssuredReadResponseBodyJSONFormat@18be83e4]" name="restAssuredReadResponseBodyJSONFormat" duration-ms="2476" started-at="2019-10-16T15:52:33Z" finished-at="2019-10-16T15:52:35Z">
+    <test name="Default test" duration-ms="2373" started-at="2019-10-17T21:26:35Z" finished-at="2019-10-17T21:26:38Z">
+      <class name="com.rvtech.RestAssuredDeserializeJSONResponse">
+        <test-method status="PASS" signature="deserializeJSONResponse()[pri:0, instance:com.rvtech.RestAssuredDeserializeJSONResponse@26be92ad]" name="deserializeJSONResponse" duration-ms="2349" started-at="2019-10-17T14:26:35Z" finished-at="2019-10-17T14:26:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- restAssuredReadResponseBodyJSONFormat -->
-      </class> <!-- com.rvtech.RestAssuredReadResponseBodyJSONFormat -->
+        </test-method> <!-- deserializeJSONResponse -->
+      </class> <!-- com.rvtech.RestAssuredDeserializeJSONResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

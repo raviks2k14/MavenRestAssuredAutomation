@@ -23,8 +23,8 @@ public class RestAssuredReadStatusHeaders {
 		Response response = httpRequest.request(Method.GET, "/Hyderabad");
 
 		// Print Response body
-		String responseBody = response.getBody().asString();
-		System.out.println("Response Body is : " + responseBody);
+		String responseBodyString = response.getBody().asString();
+		System.out.println("Response Body is : " + responseBodyString);
 
 		// Print Status code
 		int statusCode = response.getStatusCode();
